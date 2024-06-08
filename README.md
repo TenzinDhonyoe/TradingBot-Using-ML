@@ -1,47 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MLTrader Project</title>
-    <style>
-        body {
-            font-family: 'Comic Sans MS', sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f0f8ff;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2, h3 {
-            color: #ff6347;
-        }
-        pre {
-            background: #e0f7fa;
-            padding: 10px;
-            border-left: 4px solid #ff6347;
-            overflow-x: auto;
-        }
-        code {
-            font-family: 'Courier New', Courier, monospace;
-            background: #e0f7fa;
-            padding: 2px 4px;
-            border-radius: 4px;
-        }
-        a {
-            color: #ff6347;
-        }
-        ol {
-            padding-left: 20px;
-        }
-    </style>
 </head>
 <body>
     <div class="container">
