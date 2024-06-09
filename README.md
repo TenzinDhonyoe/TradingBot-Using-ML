@@ -45,7 +45,7 @@ python stonks.py
         </pre>
         <p>The backtesting will use historical data to simulate trading based on the MLTrader strategy. Ensure that your <code>utils.py</code> file includes the necessary functions for sentiment analysis, which are essential for the strategy's decision-making process.</p>
 
-        <p>![Description of the screenshot](images/screenshot.png)</p>
+<p>![Description of the screenshot](images/screenshot.png)</p>
     
 </body>
 </html>
