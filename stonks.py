@@ -7,9 +7,9 @@ from alpaca_trade_api import REST  # Import Alpaca REST API
 from timedelta import Timedelta  # Import Timedelta for date manipulation
 from utils import estimate_sentiment  # Import sentiment estimation utility
 
-API_KEY = ""  # Add Alpaca API key
-API_SECRET = ""  # Add Alpaca API secret
-BASE_URL = ""  # Add Alpaca base URL for paper trading
+API_KEY = "PKJLZ15BFF3LYPKY7N21"  # Add Alpaca API key
+API_SECRET = "qVXv9UFhxbCSlG90OtQLi7cACsrnbmImKNgdXkhT"  # Add Alpaca API secret
+BASE_URL = "https://paper-api.alpaca.markets/v2"  # Add Alpaca base URL for paper trading
 
 ALPACA_CREDS = {
     "API_KEY": API_KEY, 
@@ -78,8 +78,8 @@ class MLTrader(Strategy):
                 self.submit_order(order)  # Submit sell order
                 self.last_trade = "sell"
 
-start_date = datetime(2020, 1, 1)  # Backtest start date
-end_date = datetime(2023, 12, 31)  # Backtest end date
+start_date = datetime(2023, 1, 1)  # Backtest start date
+end_date = datetime(2024, 6, 8)  # Backtest end date
 broker = Alpaca(ALPACA_CREDS)  # Initialize Alpaca broker
 strategy = MLTrader(name='mlstrat', broker=broker, 
                     parameters={"symbol": "SPY", 
