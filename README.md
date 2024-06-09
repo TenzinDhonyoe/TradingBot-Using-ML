@@ -9,7 +9,7 @@
  <h2>Project Structure 📂</h2>
         <pre>
 .
-├── main.py           # Main script containing the MLTrader strategy
+├── stonks.py           # Main script containing the MLTrader strategy
 ├── README.html       # Project README in HTML format
 └── utils.py          # Utility functions including sentiment estimation
         </pre>
@@ -45,12 +45,6 @@ export ALPACA_API_SECRET="your_api_secret_here"
 python main.py
         </pre>
         <p>The backtesting will use historical data to simulate trading based on the MLTrader strategy. Ensure that your <code>utils.py</code> file includes the necessary functions for sentiment analysis, which are essential for the strategy's decision-making process.</p>
-        
-<h2>Contributing 🤝</h2>
-        <p>If you would like to contribute to this project, please fork the repository and submit a pull request. Contributions are welcome and appreciated! 😊</p>
-        
- <h2>Contact 📬</h2>
-        <p>For any questions or issues, please open an issue on the project's GitHub page or contact the project maintainer directly. We'll be happy to help! 💬</p>
-    </div>
+    
 </body>
 </html>
