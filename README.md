@@ -41,7 +41,7 @@ export ALPACA_API_SECRET="your_api_secret_here"
 <h2>Usage 🚀</h2>
         <p>To run the backtesting process, execute the main script:</p>
         <pre>
-python main.py
+python stonks.py
         </pre>
         <p>The backtesting will use historical data to simulate trading based on the MLTrader strategy. Ensure that your <code>utils.py</code> file includes the necessary functions for sentiment analysis, which are essential for the strategy's decision-making process.</p>
     
