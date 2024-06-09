@@ -44,8 +44,9 @@ export ALPACA_API_SECRET="your_api_secret_here"
 python stonks.py
         </pre>
         <p>The backtesting will use historical data to simulate trading based on the MLTrader strategy. Ensure that your <code>utils.py</code> file includes the necessary functions for sentiment analysis, which are essential for the strategy's decision-making process.</p>
-
-<p>![Description of the screenshot](images/screenshot.png)</p>
-    
+    <h2>Use Case: SPY with 80% Annual Return 📈</h2>
+        <p>Below are the screenshots showing the use case of the program for SPY with an 80% annual return:</p>
+        <img src="images/chart.png" alt="Trading performance chart">
+        <img src="images/stats.png" alt="Trading performance statistics">
 </body>
 </html>
