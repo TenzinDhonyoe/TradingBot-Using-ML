@@ -19,7 +19,6 @@
         <pre>
 pip install lumibot alpaca-trade-api pandas numpy torch transformers
         </pre>
-        
 <h2>Setup 🛠️</h2>
         <p>To get started with the MLTrader project, follow these steps to set up your environment and get your API credentials from Alpaca:</p>
         
