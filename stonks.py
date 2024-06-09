@@ -7,9 +7,9 @@ from alpaca_trade_api import REST  # Import Alpaca REST API
 from timedelta import Timedelta  # Import Timedelta for date manipulation
 from utils import estimate_sentiment  # Import sentiment estimation utility
 
-API_KEY = "PKJLZ15BFF3LYPKY7N21"  # Add Alpaca API key
-API_SECRET = "qVXv9UFhxbCSlG90OtQLi7cACsrnbmImKNgdXkhT"  # Add Alpaca API secret
-BASE_URL = "https://paper-api.alpaca.markets/v2"  # Add Alpaca base URL for paper trading
+API_KEY = ""  # Add Alpaca API key
+API_SECRET = ""  # Add Alpaca API secret
+BASE_URL = ""  # Add Alpaca base URL for paper trading
 
 ALPACA_CREDS = {
     "API_KEY": API_KEY, 
